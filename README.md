@@ -9,7 +9,13 @@ try and create an image that I can reuse across servers. This is just a beginnin
 # Usage
 
 ## docker-compose
+```
+docker run --name webdav -d -p 3456:80 -v /path:/var/dav/webdav_root 0tkali/webdav
 
+```
+
+Default username: admin
+Default password: admin
 
 
 ## TODO
